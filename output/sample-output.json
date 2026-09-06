@@ -1,0 +1,52 @@
+{
+    "emails": {
+        "official_alu": [
+            "support@alueducation.com"
+        ],
+        "alumni_alu": [
+            "john.doe@alumni.alueducation.com"
+        ],
+        "si_alu": [
+            "jane.smith@si.alueducation.com"
+        ],
+        "general_valid": [
+            "spoof-support@alueducation.com.attacker.com"
+        ],
+        "rejected_unsafe": []
+    },
+    "credit_cards": [
+        "XXXX-XXXX-XXXX-5100",
+        "XXXX-XXXX-XXXX-0002",
+        "XXXX-XXXX-XXXX-0000"
+    ],
+    "phone_numbers": [
+        "5105105100",
+        "0000000000",
+        "+1 (555) 234-5678",
+        "555-876-5432"
+    ],
+    "urls": [
+        "http://valid.com/",
+        "https://student.alueducation.com/dashboard?user=123&session=abc",
+        "http://subdomain.example.org/path/to/resource#section"
+    ],
+    "times": [
+        "11:59 PM",
+        "09:30 AM",
+        "14:15"
+    ],
+    "html_tags": [
+        "</p>",
+        "<div class=\"container\">",
+        "<p>",
+        "<script>",
+        "</script>",
+        "</div>"
+    ],
+    "hashtags": [
+        "#Regex2026",
+        "#Frontend",
+        "#section",
+        "#ALU_Hackathon"
+    ]
+}
