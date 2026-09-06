@@ -16,25 +16,30 @@ alu-regex-data-extraction/
 │   └── main.py               # Core extraction engine and validation logic
 └── README.md                 # Project documentation
 
-Key Features & Validation Logic
-1. Email Categorization & Spoof Detection
+
+KEY FEATURES & VALIDATION LOGIC
+
+1. EMAIL CATEGORIZATION & SPOOF DETECTION
 Routing: Emails are parsed and categorized into distinct groups: official_alu, alumni_alu, si_alu, and general_valid.
 
 Security Isolation: Catches domain spoofing attacks (e.g., alueducation.com.attacker.com) or script injection attempts and routes them directly to rejected_unsafe.
 
-2. Credit Card Validation & Masking
+
+2. CREDIT CARD VALIDATION & MASKING
 Luhn Algorithm Check: Uses mathematical checksum validation (luhn_check) to reject dummy numbers, fake sequences, and invalid cards.
 
 Regex Boundaries: Employs strict lookbehinds ((?<![\d-])) and lookaheads ((?![\d-])) to prevent partial matches on longer digit sequences.
 
 Data Privacy: Valid cards are automatically masked to display only the final four digits (XXXX-XXXX-XXXX-1234).
 
-3. Phone Number & Time Extraction
+
+3. PHONE NUMBER & TIME EXTRACTION
 Phone Formats: Matches local and international phone numbers (including standard US/international prefixes) while rejecting zero-filled fake placeholders.
 
 Time Formats: Captures both 12-hour (09:30 AM, 11:59 PM) and 24-hour (14:15) timestamps cleanly.
 
-4. Defensive URL & XSS Filtering
+
+4. DEFENSIVE URL & XSS FILTERING
 XSS Defense: Identifies and removes malicious inline scripts or HTML injection payloads (<script>...</script>) prior to URL extraction.
 
 Parsing: Captures secure http:// and https:// web paths, query strings, subdomains, and fragments.
@@ -47,7 +52,7 @@ Running the Application
 Clone the repository:
 
 Bash
-git clone [https://github.com/adukwu137/alu-regex-data-extraction_adukwu137.git](https://github.com/adukwu137/alu-regex-data-extraction_adukwu137.git)
+git clone [https://github.com/adukwu137/alu-regex-data-extraction_adukwu137.git]
 cd alu-regex-data-extraction_adukwu137
 Execute the extraction script:
 
