@@ -9,44 +9,26 @@
         "si_alu": [
             "jane.smith@si.alueducation.com"
         ],
-        "general_valid": [
+        "general_valid": [],
+        "rejected_unsafe": [
             "spoof-support@alueducation.com.attacker.com"
-        ],
-        "rejected_unsafe": []
+        ]
     },
     "credit_cards": [
-        "XXXX-XXXX-XXXX-5100",
-        "XXXX-XXXX-XXXX-0002",
-        "XXXX-XXXX-XXXX-0000"
+        "XXXX-XXXX-XXXX-5100"
     ],
     "phone_numbers": [
-        "5105105100",
-        "0000000000",
         "+1 (555) 234-5678",
+        "+250 788 123 456",
         "555-876-5432"
     ],
     "urls": [
-        "http://valid.com/",
-        "https://student.alueducation.com/dashboard?user=123&session=abc",
-        "http://subdomain.example.org/path/to/resource#section"
+        "http://subdomain.example.org/path/to/resource#section",
+        "https://student.alueducation.com/dashboard?user=123&session=abc"
     ],
     "times": [
-        "11:59 PM",
         "09:30 AM",
+        "11:59 PM",
         "14:15"
-    ],
-    "html_tags": [
-        "</p>",
-        "<div class=\"container\">",
-        "<p>",
-        "<script>",
-        "</script>",
-        "</div>"
-    ],
-    "hashtags": [
-        "#Regex2026",
-        "#Frontend",
-        "#section",
-        "#ALU_Hackathon"
     ]
 }

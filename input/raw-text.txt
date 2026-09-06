@@ -10,7 +10,7 @@ Invalid/Malicious phone strings: 000-000-000000000000, call me at +1-555-DROP TA
 Financial Transactions Log:
 Approved card: 4532-1488-9123-4567
 Approved card variant: 5105105105105100
-Rejected card (Luhn fail/fake): 4000-0000-0000-0002
+Rejected card (Luhn fail/fake): 4000-0000-0000-0003
 Malicious injection card: 4532' OR '1'='1
 
 System URLs and Links:
